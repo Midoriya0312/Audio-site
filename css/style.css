@@ -1,0 +1,9 @@
+:root{
+    --btnColor: #fbaf85;
+    --dark-gray-blue: #333d4b;
+    --border: 1px solid
+}
+button{
+    background-color: var(--btnColor);
+    border: var(--border);
+}

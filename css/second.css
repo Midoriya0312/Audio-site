@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    width: 1350px;
+    height: 730px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-card a{
+    padding: 0px 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    /* identical to box height, or 192% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.nav-card a:hover{
+    text-decoration: underline;
+}
+.nav-hr{
+    width: 1100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 125px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+.product-box{
+    position: relative;
+    display: flex;
+    margin-top: 130px;
+    margin-left: 125px;
+}
+.product-title{
+    width: 40%;
+}
+.product-title h4{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.product-title h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    /* or 104% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+.product-title p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    width: 329px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+.product-btn{
+    background: #D87D4A;
+    padding: 10px 20px;
+    width: 150px;
+    border: none;
+}
+.product-btn a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.product-image{
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    right: 0%;
+    bottom: 100%;
+}
+.audio-box{
+    width: 1350px;
+    padding-top: 70px;
+}
+.phones-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    margin-left: 60px;
+}
+.phones-card{
+    position: relative;
+    background: #F1F1F1;
+    border-radius: 8px;
+    width: 350px;
+    height: 230px;
+    text-align: center;
+}
+.phones-card h3{
+    padding-top: 140px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #000000;
+}
+.phones-card a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.icon{
+    margin: -2px;
+    padding-left: 10px;
+}
+.image{
+    position: absolute;
+    right: 82%;
+    left: 30%;
+    bottom: 60%;
+}
+.image2{
+    position: absolute;
+    right: 22%;
+    top: 15%;
+}
+.speaker{
+    display: flex;
+    width: 1160px;
+    height: 552px;
+    margin-left: 130px;
+    background: #D87D4A;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.speaker-image{
+    position: absolute;
+    width: 50%;
+    left: 10%;
+    top: 16%;
+}
+.speaker-title{
+    width: 50%;
+    float: right;
+    margin-left: 625px;
+    margin-top: 140px;
+}
+.speaker-title h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    /* or 104% */
+    width: 100px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+.speaker-title p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    width: 287px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+.speaker-btn{
+    background: #000000;
+    padding: 10px;
+    width: 130px;
+}
+.speaker-btn a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.speaker2{
+    margin-left: 130px;
+    background-image: url(../media/img/Bitmap\ \(1\).png);
+    background-repeat: no-repeat;
+    padding-right: 100px;
+    height: 320px;
+    margin-bottom: 40px;
+}
+.speaker2 h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 80px;
+    padding-left: 60px;
+    color: #000000;
+}
+.speaker2-btn{
+    border: 1px solid #000000;
+    background-color: transparent;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 130px;
+}
+.earphones{
+    width: 1350px;
+    display: flex;
+    margin-bottom: 150px;
+}
+.earphones-image{
+    margin-left: 130px;
+    
+}
+.earphones-title{
+    background: #F1F1F1;
+    border-radius: 8px;
+    width: 540px;
+    margin-left: 30px;
+}
+.earphones-title h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-left: 60px;
+    color: #000000;
+}
+.earphones-btn{
+    margin-left: 60px;
+    padding: 10px;
+    width: 130px;
+    margin-top: 15px;
+}
+.earphones-btn a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.gear-box{
+    width: 1350px;
+    display: flex;
+    position: relative;
+    margin-bottom: 400px;
+}
+.gear-title{
+    width: 50%;
+    margin-left: 130px;
+    margin-top: 100px;
+}
+.gear-title h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    /* or 110% */
+    width: 534px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #000000;
+}
+.gear-title p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    width: 445px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.gear-image img{
+    position: absolute;
+    right: 10%;
+    left: 52%;
+    border-radius: 8px;
+}
+.footer{
+    width: 1350px;
+    height: 360px;
+    background: #101010;
+}
+.footer-navbar{
+    margin-bottom: 50px;
+}
+.hr{
+    border: 2px solid #D87D4A;
+    width: 101px;
+    margin-left: 100px; 
+}
+.footer-list{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-card2{
+    margin-left: 480px;
+}
+.footer-card2 a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    /* identical to box height, or 192% */
+    padding-right: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.footer-card3 a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    /* identical to box height, or 192% */
+    padding-right: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.footer-card2 a:hover{
+    text-decoration: underline;
+}
+.footer-card3 a:hover{
+    text-decoration: underline;
+}
+.footer-title{
+    margin-left: 100px;
+}
+.text{
+    width: 50%;
+}
+.text p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    width: 540px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.footer-title{
+    display: flex;
+    
+}
+.footer-image{
+    margin-left: 335px;
+    margin-top: 50px;
+}
+.copyright{
+    margin-top: 90px;
+    margin-left: 100px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
